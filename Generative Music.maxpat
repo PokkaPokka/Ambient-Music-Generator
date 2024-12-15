@@ -10,9 +10,264 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 99.0, 1402.0, 823.0 ],
+		"rect" : [ -1436.0, -22.0, 1402.0, 823.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-339",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 172.666671276092529, 951.318181395530701, 34.0, 22.0 ],
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-338",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 172.666671276092529, 974.0, 39.0, 22.0 ],
+					"text" : "1, 0 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-335",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 158.666671276092529, 926.0, 67.0, 22.0 ],
+					"text" : "receive tog"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-334",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 63.243240356445312, 943.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-332",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 63.243240356445312, 913.0, 111.0, 22.0 ],
+					"text" : "if $i1 == 200 then 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-331",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 63.243240356445312, 974.0, 78.0, 22.0 ],
+					"text" : "0, 11 100000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-328",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 63.243240356445312, 1003.0, 40.0, 22.0 ],
+					"text" : "line"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-251",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 63.243240356445312, 1062.0, 61.0, 22.0 ],
+					"text" : "send filter"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-246",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 3175.0, 763.0, 24.0, 24.0 ],
+					"svg" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-244",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 63.243240356445312, 1034.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-229",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 64.243240356445312, 820.0, 29.5, 22.0 ],
+					"text" : "/ 4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-227",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 64.243240356445312, 848.235329508781433, 69.0, 22.0 ],
+					"text" : "filter-res $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-223",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 47.0, 763.0, 36.0, 22.0 ],
+					"text" : "- 300"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-214",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 182.166671276092529, 674.117675185203552, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-218",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 182.166671276092529, 645.88237988948822, 129.0, 23.0 ],
+					"text" : "metro 32n @active 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-220",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 9,
+					"outlettype" : [ "int", "int", "float", "float", "float", "", "int", "float", "" ],
+					"patching_rect" : [ 182.166671276092529, 703.529441118240356, 103.0, 22.0 ],
+					"text" : "transport"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-213",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 47.0, 790.000018835067749, 160.0, 22.0 ],
+					"text" : "if $i1 > 336 then 336 else $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-212",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 47.0, 739.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-201",
+					"maxclass" : "newobj",
+					"numinlets" : 5,
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "", "", "int" ],
+					"patching_rect" : [ 103.015693247318268, 706.842108726501465, 61.0, 22.0 ],
+					"text" : "counter"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-200",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 47.243240356445312, 687.0, 35.0, 22.0 ],
+					"text" : "set 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-176",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 88.743240356445312, 659.0, 67.0, 22.0 ],
+					"text" : "receive tog"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-228",
 					"maxclass" : "number",
@@ -1083,7 +1338,7 @@
 									"DownExpandEnable" : 1.0,
 									"DownExpandThresh" : -45.0,
 									"DualBand" : 0.0,
-									"Gain" : 1.0,
+									"Gain" : -39.0,
 									"LevelDetectFreeze" : -54.0,
 									"LevelDetectGating" : -36.0,
 									"Limiter" : 1.0,
@@ -1128,7 +1383,7 @@
 												"DownExpandEnable" : 1.0,
 												"DownExpandThresh" : -45.0,
 												"DualBand" : 0.0,
-												"Gain" : 1.0,
+												"Gain" : -39.0,
 												"LevelDetectFreeze" : -54.0,
 												"LevelDetectGating" : -36.0,
 												"Limiter" : 1.0,
@@ -1351,7 +1606,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 175.243239879608154, 1050.504999160766602, 75.0, 22.0 ],
+					"patching_rect" : [ 275.20334991812706, 1051.764749765396118, 75.0, 22.0 ],
 					"text" : "send~ chord"
 				}
 
@@ -2515,7 +2770,7 @@
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 1,
 						"patchername" : "Analogue Drums.amxd",
-						"patchername_fallback" : "~/Documents/MUST4610/Final Porject/Analogue Drums.amxd"
+						"patchername_fallback" : "~/Documents/MUST4610/Final Porject/Ambient-Music-Generator/Analogue Drums.amxd"
 					}
 ,
 					"snapshot" : 					{
@@ -2529,12 +2784,12 @@
 						"embed" : 1,
 						"snapshot" : 						{
 							"name" : "Analogue Drums.amxd",
-							"origname" : "~/Documents/MUST4610/Final Porject/Analogue Drums.amxd",
+							"origname" : "~/Documents/MUST4610/Final Porject/Ambient-Music-Generator/Analogue Drums.amxd",
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
 									"ad-level" : 6.0,
 									"clhat-decay" : 1000.0,
-									"hat-level" : 7.0,
+									"hat-level" : 0.0,
 									"hat-tone" : 30.0,
 									"kick-attack" : 30.0,
 									"kick-decay" : 800.0,
@@ -2572,12 +2827,12 @@
 									"embed" : 0,
 									"snapshot" : 									{
 										"name" : "Analogue Drums.amxd",
-										"origname" : "~/Documents/MUST4610/Final Porject/Analogue Drums.amxd",
+										"origname" : "~/Documents/MUST4610/Final Porject/Ambient-Music-Generator/Analogue Drums.amxd",
 										"valuedictionary" : 										{
 											"parameter_values" : 											{
 												"ad-level" : 6.0,
 												"clhat-decay" : 1000.0,
-												"hat-level" : 7.0,
+												"hat-level" : 0.0,
 												"hat-tone" : 30.0,
 												"kick-attack" : 30.0,
 												"kick-decay" : 800.0,
@@ -2656,7 +2911,7 @@
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 1,
 						"patchername" : "P_4L IIb.amxd",
-						"patchername_fallback" : "~/Documents/MUST4610/Final Porject/P_4L IIb.amxd"
+						"patchername_fallback" : "~/Documents/MUST4610/Final Porject/Ambient-Music-Generator/P_4L IIb.amxd"
 					}
 ,
 					"snapshot" : 					{
@@ -2670,7 +2925,7 @@
 						"embed" : 1,
 						"snapshot" : 						{
 							"name" : "P_4L IIb.amxd",
-							"origname" : "~/Documents/MUST4610/Final Porject/P_4L IIb.amxd",
+							"origname" : "~/Documents/MUST4610/Final Porject/Ambient-Music-Generator/P_4L IIb.amxd",
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
 									"ADSR Attack" : 0.110236220061779,
@@ -2753,7 +3008,7 @@
 									"timbre_mod_target" : 0.0,
 									"vel_adsr_amount" : 100.0,
 									"blob" : 									{
-										"multi-value" : [ 0.034188309997059, 0.104839058487485, 0.888311939713317, 0.215907613206412, 0.760706333473059, 0.631125944825586, 0.384956682212935 ],
+										"multi-value" : [ 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5 ],
 										"Filter_mod_map" : [ 0 ],
 										"Harm_mod_map" : [ 0 ],
 										"Model_mod_map" : [ 0 ],
@@ -2761,7 +3016,7 @@
 										"Timbre_mod_map" : [ 0 ],
 										"detune reset" : [ 0 ],
 										"dict" : [ 											{
-												"mod" : 2
+												"mod" : 1
 											}
  ],
 										"modulation patchbay" : [ 											{
@@ -2938,7 +3193,7 @@
 									"embed" : 0,
 									"snapshot" : 									{
 										"name" : "P_4L IIb.amxd",
-										"origname" : "~/Documents/MUST4610/Final Porject/P_4L IIb.amxd",
+										"origname" : "~/Documents/MUST4610/Final Porject/Ambient-Music-Generator/P_4L IIb.amxd",
 										"valuedictionary" : 										{
 											"parameter_values" : 											{
 												"ADSR Attack" : 0.110236220061779,
@@ -3021,7 +3276,7 @@
 												"timbre_mod_target" : 0.0,
 												"vel_adsr_amount" : 100.0,
 												"blob" : 												{
-													"multi-value" : [ 0.034188309997059, 0.104839058487485, 0.888311939713317, 0.215907613206412, 0.760706333473059, 0.631125944825586, 0.384956682212935 ],
+													"multi-value" : [ 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5 ],
 													"Filter_mod_map" : [ 0 ],
 													"Harm_mod_map" : [ 0 ],
 													"Model_mod_map" : [ 0 ],
@@ -3029,7 +3284,7 @@
 													"Timbre_mod_map" : [ 0 ],
 													"detune reset" : [ 0 ],
 													"dict" : [ 														{
-															"mod" : 2
+															"mod" : 1
 														}
  ],
 													"modulation patchbay" : [ 														{
@@ -3132,7 +3387,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 133.243240356445312, 799.0, 679.452343285083771, 196.0 ],
+					"patching_rect" : [ 232.850406974554062, 800.000033378601074, 679.452343285083771, 196.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 494.0, 187.0, 679.452343285083771, 196.0 ],
 					"saved_attribute_attributes" : 					{
@@ -3150,7 +3405,7 @@
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 1,
 						"patchername" : "P_4L IIa.amxd",
-						"patchername_fallback" : "~/Documents/MUST4610/Final Porject/P_4L IIa.amxd"
+						"patchername_fallback" : "~/Documents/MUST4610/Final Porject/Ambient-Music-Generator/P_4L IIa.amxd"
 					}
 ,
 					"snapshot" : 					{
@@ -3164,14 +3419,13 @@
 						"embed" : 1,
 						"snapshot" : 						{
 							"name" : "P_4L IIa.amxd",
-							"origname" : "~/Documents/MUST4610/Final Porject/P_4L IIa.amxd",
+							"origname" : "~/Documents/MUST4610/Final Porject/Ambient-Music-Generator/P_4L IIa.amxd",
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
 									"ADSR Attack" : 0.401574790477753,
 									"ADSR Decay" : 1.0,
 									"ADSR Release" : 1.0,
 									"ADSR Response" : 0.0,
-									"ADSR Sustain" : 1.0,
 									"Clock Chance" : 0.0,
 									"Clock Free Rate" : 0.2,
 									"Clock Mode" : 1.0,
@@ -3183,7 +3437,6 @@
 									"Filter Bypass" : 1.0,
 									"Filter Drive" : 0.0,
 									"Filter Mod Source" : 0.0,
-									"Filter Resonance" : 0.0,
 									"Filter Type" : 0.0,
 									"Filter per voice variation" : 0.0,
 									"Harm per voice variation" : 0.0,
@@ -3212,7 +3465,7 @@
 									"LFO Tilt" : 50.0,
 									"LFO Warp" : 0.0,
 									"LFO Width" : 50.0,
-									"LPG Color" : 0.724409461021423,
+									"LPG Color" : 0.724409,
 									"LPG Decay" : 1.0,
 									"Level Mod Source" : 0.0,
 									"Master Volume" : -9.391076010289908,
@@ -3229,6 +3482,7 @@
 									"Timber per voice variation" : 0.0,
 									"Timbre Mod Source" : 0.0,
 									"detune mode" : 0.0,
+									"filter-res" : 0.0,
 									"filter_cutoff_knob_value" : 0.75,
 									"filter_mod_value" : 0.5,
 									"harm_knob_value" : 0.5,
@@ -3237,6 +3491,7 @@
 									"morph_mod_value" : 0.0,
 									"timbre_knob_value" : 0.5,
 									"timbre_mod_value" : 0.0,
+									"ADSR Sustain" : 1.0,
 									"filter_mod_target" : 0.0,
 									"harm_mod_target" : 0.0,
 									"keytrack_amount" : 0.0,
@@ -3247,7 +3502,7 @@
 									"timbre_mod_target" : 0.0,
 									"vel_adsr_amount" : 0.0,
 									"blob" : 									{
-										"multi-value" : [ 0.46360701427412, 0.169462345002327, 0.531576131274347, 0.854521717388532, 0.457888254811136, 0.044630103806168, 0.229524136347927 ],
+										"multi-value" : [ 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5 ],
 										"Filter_mod_map" : [ 0 ],
 										"Harm_mod_map" : [ 0 ],
 										"Model_mod_map" : [ 0 ],
@@ -3295,14 +3550,13 @@
 									"embed" : 0,
 									"snapshot" : 									{
 										"name" : "P_4L IIa.amxd",
-										"origname" : "~/Documents/MUST4610/Final Porject/P_4L IIa.amxd",
+										"origname" : "~/Documents/MUST4610/Final Porject/Ambient-Music-Generator/P_4L IIa.amxd",
 										"valuedictionary" : 										{
 											"parameter_values" : 											{
 												"ADSR Attack" : 0.401574790477753,
 												"ADSR Decay" : 1.0,
 												"ADSR Release" : 1.0,
 												"ADSR Response" : 0.0,
-												"ADSR Sustain" : 1.0,
 												"Clock Chance" : 0.0,
 												"Clock Free Rate" : 0.2,
 												"Clock Mode" : 1.0,
@@ -3314,7 +3568,6 @@
 												"Filter Bypass" : 1.0,
 												"Filter Drive" : 0.0,
 												"Filter Mod Source" : 0.0,
-												"Filter Resonance" : 0.0,
 												"Filter Type" : 0.0,
 												"Filter per voice variation" : 0.0,
 												"Harm per voice variation" : 0.0,
@@ -3343,7 +3596,7 @@
 												"LFO Tilt" : 50.0,
 												"LFO Warp" : 0.0,
 												"LFO Width" : 50.0,
-												"LPG Color" : 0.724409461021423,
+												"LPG Color" : 0.724409,
 												"LPG Decay" : 1.0,
 												"Level Mod Source" : 0.0,
 												"Master Volume" : -9.391076010289908,
@@ -3360,6 +3613,7 @@
 												"Timber per voice variation" : 0.0,
 												"Timbre Mod Source" : 0.0,
 												"detune mode" : 0.0,
+												"filter-res" : 0.0,
 												"filter_cutoff_knob_value" : 0.75,
 												"filter_mod_value" : 0.5,
 												"harm_knob_value" : 0.5,
@@ -3368,6 +3622,7 @@
 												"morph_mod_value" : 0.0,
 												"timbre_knob_value" : 0.5,
 												"timbre_mod_value" : 0.0,
+												"ADSR Sustain" : 1.0,
 												"filter_mod_target" : 0.0,
 												"harm_mod_target" : 0.0,
 												"keytrack_amount" : 0.0,
@@ -3378,7 +3633,7 @@
 												"timbre_mod_target" : 0.0,
 												"vel_adsr_amount" : 0.0,
 												"blob" : 												{
-													"multi-value" : [ 0.46360701427412, 0.169462345002327, 0.531576131274347, 0.854521717388532, 0.457888254811136, 0.044630103806168, 0.229524136347927 ],
+													"multi-value" : [ 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5 ],
 													"Filter_mod_map" : [ 0 ],
 													"Harm_mod_map" : [ 0 ],
 													"Model_mod_map" : [ 0 ],
@@ -4183,7 +4438,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2528.0, 720.0, 50.0, 22.0 ],
-					"text" : "64"
+					"text" : "66"
 				}
 
 			}
@@ -4792,7 +5047,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 367.243240356445312, 744.842108726501465, 50.0, 22.0 ],
-					"text" : "68"
+					"text" : "69"
 				}
 
 			}
@@ -5293,7 +5548,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 23.416690826416016, 140.0, 1604.0, 984.0 ],
+					"patching_rect" : [ 24.759364724159241, 140.0, 1604.0, 984.0 ],
 					"proportion" : 0.39,
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{
@@ -5718,7 +5973,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 362.894021451473236, 1005.0, 933.0, 1005.0, 933.0, 771.0, 1075.243240356445312, 771.0 ],
+					"midpoints" : [ 462.501188069581985, 1005.0, 933.0, 1005.0, 933.0, 771.0, 1075.243240356445312, 771.0 ],
 					"order" : 0,
 					"source" : [ "obj-127", 1 ]
 				}
@@ -5727,7 +5982,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 142.743240356445312, 1005.0, 933.0, 1005.0, 933.0, 771.0, 1075.243240356445312, 771.0 ],
+					"midpoints" : [ 242.350406974554062, 1005.0, 933.0, 1005.0, 933.0, 771.0, 1075.243240356445312, 771.0 ],
 					"order" : 0,
 					"source" : [ "obj-127", 0 ]
 				}
@@ -6191,6 +6446,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-200", 0 ],
+					"order" : 1,
+					"source" : [ "obj-176", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-201", 0 ],
+					"order" : 0,
+					"source" : [ "obj-176", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-75", 0 ],
 					"source" : [ "obj-177", 0 ]
 				}
@@ -6437,6 +6708,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-201", 0 ],
+					"order" : 0,
+					"source" : [ "obj-200", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-212", 0 ],
+					"order" : 1,
+					"source" : [ "obj-200", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-212", 0 ],
+					"source" : [ "obj-201", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-194", 0 ],
 					"source" : [ "obj-202", 0 ]
 				}
@@ -6472,6 +6766,37 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-223", 0 ],
+					"order" : 1,
+					"source" : [ "obj-212", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-332", 0 ],
+					"midpoints" : [ 56.5, 762.0, 33.0, 762.0, 33.0, 900.0, 72.743240356445312, 900.0 ],
+					"order" : 0,
+					"source" : [ "obj-212", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-229", 0 ],
+					"source" : [ "obj-213", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-220", 0 ],
+					"source" : [ "obj-214", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-217", 0 ],
 					"source" : [ "obj-215", 0 ]
 				}
@@ -6494,8 +6819,23 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-214", 0 ],
+					"source" : [ "obj-218", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-108", 0 ],
 					"source" : [ "obj-219", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-201", 0 ],
+					"midpoints" : [ 202.166671276092529, 726.0, 165.0, 726.0, 165.0, 693.0, 112.515693247318268, 693.0 ],
+					"source" : [ "obj-220", 1 ]
 				}
 
 			}
@@ -6523,6 +6863,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-213", 0 ],
+					"source" : [ "obj-223", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-263", 1 ],
 					"midpoints" : [ 284.989618301391602, 492.0, 339.0, 492.0, 339.0, 462.0, 360.0, 462.0, 360.0, 213.0, 398.743240356445312, 213.0 ],
 					"source" : [ "obj-225", 0 ]
@@ -6538,9 +6885,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-127", 0 ],
+					"midpoints" : [ 73.743240356445312, 882.0, 219.0, 882.0, 219.0, 795.0, 242.350406974554062, 795.0 ],
+					"source" : [ "obj-227", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-263", 1 ],
 					"midpoints" : [ 217.301422774791718, 498.0, 339.0, 498.0, 339.0, 462.0, 360.0, 462.0, 360.0, 213.0, 398.743240356445312, 213.0 ],
 					"source" : [ "obj-228", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-227", 0 ],
+					"source" : [ "obj-229", 0 ]
 				}
 
 			}
@@ -6644,6 +7006,13 @@
 					"midpoints" : [ 2373.5, 757.0, 2509.5, 757.0 ],
 					"order" : 1,
 					"source" : [ "obj-243", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-251", 0 ],
+					"source" : [ "obj-244", 0 ]
 				}
 
 			}
@@ -6773,8 +7142,57 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-244", 0 ],
+					"source" : [ "obj-328", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-328", 0 ],
+					"source" : [ "obj-331", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-334", 0 ],
+					"source" : [ "obj-332", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-331", 0 ],
+					"source" : [ "obj-334", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-339", 0 ],
+					"source" : [ "obj-335", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-328", 0 ],
+					"source" : [ "obj-338", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-338", 0 ],
+					"source" : [ "obj-339", 0 ]
 				}
 
 			}
@@ -7388,7 +7806,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Analogue Drums.amxd",
-				"bootpath" : "~/Documents/MUST4610/Final Porject",
+				"bootpath" : "~/Documents/MUST4610/Final Porject/Ambient-Music-Generator",
 				"patcherrelativepath" : ".",
 				"type" : "amxd",
 				"implicit" : 1
@@ -7396,7 +7814,7 @@
 , 			{
 				"name" : "Analogue Drums.amxd.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
@@ -7409,7 +7827,7 @@
 , 			{
 				"name" : "ChamberVerb.amxd.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
@@ -7422,13 +7840,13 @@
 , 			{
 				"name" : "Max Compressor.amxd.maxsnap",
 				"bootpath" : "~/Documents/Max 9/Snapshots",
-				"patcherrelativepath" : "../../Max 9/Snapshots",
+				"patcherrelativepath" : "../../../Max 9/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "P_4L IIa.amxd",
-				"bootpath" : "~/Documents/MUST4610/Final Porject",
+				"bootpath" : "~/Documents/MUST4610/Final Porject/Ambient-Music-Generator",
 				"patcherrelativepath" : ".",
 				"type" : "amxd",
 				"implicit" : 1
@@ -7436,20 +7854,20 @@
 , 			{
 				"name" : "P_4L IIa.amxd.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "P_4L IIa.amxd[1].maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "P_4L IIb.amxd",
-				"bootpath" : "~/Documents/MUST4610/Final Porject",
+				"bootpath" : "~/Documents/MUST4610/Final Porject/Ambient-Music-Generator",
 				"patcherrelativepath" : ".",
 				"type" : "amxd",
 				"implicit" : 1
@@ -7457,14 +7875,14 @@
 , 			{
 				"name" : "P_4L IIb.amxd.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "P_4L IIb.amxd[1].maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
